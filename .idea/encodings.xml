@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/datasets/TextClassification/rec-dy/test.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasets/TextClassification/rec-new/test.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datasets/TextClassification/wb/train.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasets/result3.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datasets/test.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datasets/tiktok3.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/datasets/veb/rec-related/all_test.csv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datasets/veb/rec-related/test.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/等待删除/rec-dy-new/test.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/等待删除/rec-dy-test/test.csv" charset="GBK" />
+  </component>
+</project>

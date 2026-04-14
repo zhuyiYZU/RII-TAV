@@ -1,0 +1,1 @@
+弹幕：{"placeholder":"text_a"}。该弹幕更偏向{"mask"}。
