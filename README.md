@@ -11,9 +11,12 @@ Environment Setup
 4.API Configuration: Ensure your XIAOHU_API_KEY is configured within the scripts for the automated prompt evolution process.
 
 Usage Steps
-1. Offline Preparation:
+1. Offline Preparation:TASR & APIR
 
-TASR & APIRIn this stage, the system aligns cross-domain knowledge and induces optimal prompts without accessing actual target comments.Target-Aligned Source Reconstruction (TASR): Uses an LLM to synthesize target-style pseudo-labeled data based on source labeling rules and target platform/product metadata, ensuring zero data leakage.Auto-Prompting Iterative Refinement (APIR):Run fewshot.py with the --auto_prompt flag to start the Generator-Reflector-Curator loop:Generator: Predicts intent with reasoning.Reflector: Critiques the prediction against pseudo-labels.Curator: Updates the "Learning Playbook" and distills it into a compact, deployment-efficient hard template.
+In this stage, the system aligns cross-domain knowledge and induces optimal prompts without accessing actual target comments.
+Target-Aligned Source Reconstruction (TASR): Uses an LLM to synthesize target-style pseudo-labeled data based on source labeling rules and target platform/product metadata, ensuring zero data leakage.
+
+Auto-Prompting Iterative Refinement (APIR):Run fewshot.py with the --auto_prompt flag to start the Generator-Reflector-Curator loop:Generator: Predicts intent with reasoning.Reflector: Critiques the prediction against pseudo-labels.Curator: Updates the "Learning Playbook" and distills it into a compact, deployment-efficient hard template.
 
 2.Dataset Preparation
 
